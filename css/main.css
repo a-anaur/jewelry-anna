@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+/* font-family: "Lora", serif; */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: rgb(120, 120, 69);
+  font-family: "Lora", serif;
+  color: white;
+  min-height: 100px;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+/* ====== nav START ===== */
+
+.first-img img,
+.second-img img {
+  max-width: 352px;
+}
+
+.third-img img {
+  max-width: 233px;
+  margin-left: 50px;
+  margin-top: 217px;
+  position: relative;
+  z-index: -5;
+}
+
+.second-img img {
+  margin-top: -43px;
+  margin-left: -280px;
+}
+
+.top-row {
+  align-items: center;
+}
+
+.top-left-title {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.top-left-text {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  max-width: 377px;
+}
+
+.top-left-btn {
+  padding: 10px 20px;
+  background-color: rgb(83, 39, 39);
+  color: white;
+  transition: all .5s;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.top-left-btn:hover {
+  background-color: aquamarine;
+  color: brown;
+}
+
+.top-left {
+  margin-bottom: 30px;
+}
+
+.products-section {
+  padding: 30px 0;
+  border: 1px solid blue;
+ 
+}
+
+.products-section-title {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.middle-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.products-images-section {
+  flex-wrap: wrap;
+}
+
+.payment-left {
+  text-align: end;
+}
+
+.payment-left img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+.payment-right {
+  margin-left: 50px;
+}
+
+.payment-btn {
+  padding: 10px 4cqmax;
+  background-color: brown;
+  color: white;
+  transition: all .5s;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.payment-btn:hover {
+  background-color: aquamarine;
+  color: brown;
+}
+
+.payment-input {
+  max-width: 70px;
+}
+
+.payment-row {
+  align-items: center;
+}
+
+.form-select {
+  max-width: 200px;
+}
+
+.total-price {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.total-info {
+  font-size: 22px;
+  font-weight: 400;
+}
+.total-email {
+  color: aquamarine;
+  display: block;
+  transition: all .5s;
+}
+
+.total-email:hover {
+  color: gold;
+}
+
+.total-price span {
+  margin-left: 10px;
+}
+
+/* ====== nav END ===== */
+
+/* ====== Hero START ===== */
+
+/* ====== Hero END ===== */
+
+/* ====== Service START ===== */
+
+/* ====== Service END ===== */
+
+/* ====== Masters START ===== */
+
+/* ====== Masters END ===== */
+
+/* ====== Register START ===== */
+
+/* ====== Register END ===== */
+
+/* ====== Last-section START ===== */
+
+/* ====== Last-section END ===== */
+/* ====== Footer START ===== */
+
+/* ====== Footer END ===== */
+
+@media (max-width: 768px) {
+  .middle-images {
+    margin-left: 80px;
+  }
+
+  .payment-left img {
+    margin-right: 120px;
+    margin-bottom: 40px;
+  }
+  .payment-right {
+    margin-left: 100px;
+  }
+
+}

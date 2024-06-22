@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/fav-bs.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Jewelry</title>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+
+    </header>
+    <main class="main">
+        <div class="container top-section">
+            <div class="row top-row">
+                <div class="col-md-6 top-left">
+                    <div class="top-left-title">
+                        Decorations<br>
+                        own<br>
+                        production
+                    </div>
+                    <div class="top-left-text">
+                        All products are created with love
+                        for each client
+                    </div>
+                    <div class="top-left-button">
+                        <a href="#" class="btn top-left-btn">Make a calculation and order</a>
+                    </div>
+                </div>
+                <div class="col-md-6 top-right mt-5">
+                    <div class="row">
+                        <div class="col-md-6 d-flex left-block">
+                            <div class="first-img">
+                                <img src="img/top-right1.svg" alt="">
+                            </div>
+                            <div class="second-img">
+                                <img src="img/top-right2.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 right-block">
+                            <div class="third-img">
+                                <img src="img/top-right3.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container products-section">
+            <div class="row">
+                <div class="col-12 products-section-title text-center mb-4">
+                    Our products
+                </div>
+            </div>
+            <div class="products-images-section d-flex justify-content-between">
+                <div class="left-img mb-2">
+                    <img src="img/prod1.jpg" alt="">
+                </div>
+                <div class="middle-images">
+                    <div class="middle-top mb-2">
+                        <img src="img/prod2.jpg" alt="">
+                    </div>
+                    <div class="middle-bottom mb-2">
+                        <img src="img/prod3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="right-img mb-2">
+                    <img src="img/prod4.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="container payment-section">
+            <div class="row payment-row">
+                <div class="col-md-6 gap-3">
+                    <div class="payment-left">
+                        <img src="img/Screen Shot 2022-08-24 at 1.17 1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="payment-right">
+                        <p class="first-text mb-2">
+                            Select product:
+                        </p>
+                        <select id="selectProduct" class="form-select mb-3" aria-label="Default select example">
+                            <option selected value="0">Select from list</option>
+                            <option value="100">Braslet ($100)</option>
+                            <option value="70">Ring ($70)</option>
+                            <option value="40">Sergi ($40)</option>
+                            
+                        </select>
+                        <p class="second-text mb-2">
+                            Specify quantity:
+                        </p>
+                        <input id="quantityProduct" class="payment-input mb-4" type="number" value="0" min="0"><br>
+                        <a href="#footer" class="btn payment-btn mb-3" id="btnProduct">Calculate</a>
+                        <div id="infoProduct" class="total" style="display: none;">
+                            <p class="total-price mb-3">Total: $<span id="priceProduct"></span></p>
+                            <p class="total-info">Leave a request by mail:
+                                <a class="total-email" href="mailto:order@jewelery.com">order@jewelery.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer" id="footer">
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
